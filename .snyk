@@ -32,3 +32,8 @@ patch:
   'npm:ms:20170412':
     - swagger-express-mw > swagger-node-runner > swagger-tools > body-parser > debug > ms:
         patched: '2019-07-22T11:05:27.553Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T02:32:50.531Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-05T02:32:50.531Z'
